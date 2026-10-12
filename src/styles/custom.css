@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Alegreya';
+	src: local('Alegreya Regular'), url('/fonts/static/Alegreya-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Alegreya';
+	src: local('Alegreya Bold'), url('/fonts/static/Alegreya-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Alegreya';
+	src: local('Alegreya Italic'), url('/fonts/static/Alegreya-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Colors match the cairnrpg.com sites. */
+:root {
+	--sl-font: 'Alegreya', Georgia, serif;
+	--sl-color-accent-low: #3d3324;
+	--sl-color-accent: #f2c488;
+	--sl-color-accent-high: #f8dcb5;
+	--sl-color-white: #e3e9f0;
+	--sl-color-gray-2: #c9d1d9;
+	--sl-color-black: #26252b;
+	--sl-color-bg-nav: #26252b;
+	--sl-color-bg-sidebar: #26252b;
+	--cairn-row-alt: #2e2d33;
+}
+
+.sl-markdown-content {
+	font-size: 1.25rem;
+}
+
+/* Tables in this site use an empty header row. */
+.sl-markdown-content thead {
+	display: none;
+}
+
+.sl-markdown-content table {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.sl-markdown-content :is(th, td) {
+	padding: 0.35rem 0.5rem;
+	border: none;
+}
+
+.sl-markdown-content tr:nth-child(even) td {
+	background-color: var(--cairn-row-alt);
+}
+
+.sl-markdown-content tr:nth-child(odd) td {
+	background-color: transparent;
+}
