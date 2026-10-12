@@ -54,6 +54,7 @@ title: "Criação de Personagem"
 
 ## Presságios
 
+|  |  |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **d20** | **Presságio**                                                                                                                                                                                                                                          |
 | **1**   | As outrora ricas águas de um rio vital tornaram-se negras e fétidas, contaminando a terra e adoecendo quem delas bebe. Um ancião da aldeia aponta uma recente profanação como causa, mas a maioria ignora suas palavras.                               |
