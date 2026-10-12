@@ -171,6 +171,7 @@ Se o dano a um PJ reduzir seus PG exatamente a 0, consulte o resultado na tabela
 
 #### Tabela de Cicatrizes
 
+|  |  |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **PG Perdidos** | **Resultado**                                                                                                                                                                                                                                                 |
 | 1               | Cicatriz Duradoura: Role 1d6. Pescoço, 2: Mãos, 3: Olho, 4: Peito, 5: Pernas, 6: Orelha. Role 1d6: Se o total for maior que seus PG máximos, adote o novo resultado.                                                                                          |
